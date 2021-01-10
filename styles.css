@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+img{
+    position: absolute;
+    left: 500px;
+    padding-top: 5px;
+    height: 95px;
+}
+#mention{
+    color:rgb(128, 125, 125);
+    
+}
+.details{
+    padding: 20px;
+    font-family:Arial; 
+    font-weight:lighter;
+    font-size: large; 
+    color: rgb(44, 43, 43); 
+}
+.school{
+    padding: 20px;
+    font-family:Arial; 
+    font-weight:lighter;
+    font-size: large; 
+    color: rgb(44, 43, 43);
+}
+.descrb{
+    
+    padding: 20px;
+    font-family:Arial; 
+    font-weight:lighter;
+    font-size: large; 
+    color: rgb(44, 43, 43);
+   
+}
+
+input{
+    font-size:medium ;
+    border: 2px solid #aaa;
+    height: 20px;
+    border-radius: 5px; 
+    outline: blue;
+    padding: 6px; 
+    transition: 0.5s;
+}
+textarea{
+    outline: blue;
+}
+input[type='text']:hover,input[type='date']:hover,
+input[type='email']:hover,input[type='tel']:hover,
+input[type='date']:hover,textarea:hover, input[type=file]:hover{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+input[type='text']:focus,input[type='date']:focus,
+input[type='email']:focus,input[type='number']:focus,
+input[type='tel']:focus,textarea:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type='submit']{
+    background-color: ghostwhite;
+    border-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+label::before, #req::before {
+    content: "*";
+    color: red; 
+    float: left;
+}
